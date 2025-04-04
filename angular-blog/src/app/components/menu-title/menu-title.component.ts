@@ -1,11 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu-title',
-  imports: [],
-  templateUrl: './menu-title.component.html',
-  styleUrl: './menu-title.component.css'
+  templateUrl: './menu-title.component.html', 
+  styleUrls: ['./menu-title.component.css']
 })
-export class MenuTitleComponent {
+export class MenuTitleComponent implements OnInit{
+  nconstructor() { }
+
+  ngOnInit(): void {
+  }
 
 }
