@@ -1,7 +1,7 @@
 .container__big-card{
     border: solid white 2px;
-    width: 453px;
-    height: 750px;
+    width: 653px;
+    height: 950px;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -26,5 +26,9 @@
 }
 
 .big-card__image{
-    width: 453px;
+    width: 100%;
+}
+
+.big-card__image > img{
+    width: 100%;
 }
