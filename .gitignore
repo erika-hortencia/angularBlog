@@ -1,24 +1,43 @@
-# Compiled class file
-*.class
+/.ideas
 
-# Log file
-*.log
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
-# BlueJ files
-*.ctxt
+# Node
+/node_modules
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+npm-debug.log
+yarn-error.log
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
